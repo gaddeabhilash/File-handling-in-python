@@ -1,0 +1,33 @@
+file handling:
+file
+type paths
+open/close
+reading
+writing
+appending data info the file
+file,directory
+os module methods
+
+relative
+absolute 
+
+
+file types-ascii binary 
+abc
+97899
+......................................................
+
+open() - file=open("filenmae.format"),"mode"
+close() - file=close("filenmae,format")
+
+modes
+r - reading 
+w - writing
+
+methods
+flieno() - file number
+flush() - file stream refresh
+realine/readlines
+truncate()
+rstrip()
+strip()
