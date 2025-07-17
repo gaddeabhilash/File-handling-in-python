@@ -1,3 +1,5 @@
-file= open("test.txt","a")
-file.write("How are you")
-file.close()
+with open("log.txt", 'a+') as f:
+    f.write("\n10")
+    f.seek(0)
+    data=f.read()
+    print("Current data\n",data)
